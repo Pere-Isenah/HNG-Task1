@@ -90,10 +90,15 @@ a:hover {
     padding-top: 5rem;
 }
 
-
-.goal-pic {
+.goal-pic-con {
     max-width: 48rem;
     height: 50rem;
+
+}
+.goal-pic {
+    object-fit: fit;
+    width: 100%;
+    height: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -151,10 +156,35 @@ a:hover {
         display: none;
     }
     .section-grid p{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
 
     }
     
+    .card-con {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-grid .box-large {
+        display: none;
+    }
+
+    .section-grid p {
+        font-size: 1.9rem;
+    }
+
     .card-con {
         flex-direction: column;
         align-items: center;
