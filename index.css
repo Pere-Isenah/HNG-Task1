@@ -150,6 +150,9 @@ a:hover {
 @media (max-width: 768px) {
     .section-grid {
         grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section-grid .box-large {
@@ -175,6 +178,9 @@ a:hover {
 @media (max-width: 768px) {
     .section-grid {
         grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .section-grid .box-large {
